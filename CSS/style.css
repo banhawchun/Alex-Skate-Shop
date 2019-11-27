@@ -2,7 +2,7 @@
 	width:1250px;
 	height:auto;
 	overflow:hidden;
-	position:relative; 
+	position:relative;
 	}
 	
 *{
@@ -244,11 +244,18 @@ h2 span{
 }
 
 .about{
-	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif, khmer os;
-	text-align:justify;
-	margin-bottom:320px;
-	font-weight:100;
-	font-size:17px;
+	width:560px;
+	height:300px;
+	border:1px solid blue;
+	box-shadow:1px 1px 2px 2px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", sans-serif,Limon F1;
+	text-align:inherit;
+	
+	font-weight:40;
+	font-size:21px;
+	text-shadow:1px 0.3px grey;
+	padding-top:10px;
+	color:#06C;
 }
 
 .details{
@@ -260,4 +267,32 @@ h2 span{
 	font-family:Consolas, khmer os;
 	font-size:22px;
 	color:red;
+}
+
+.backgroud{
+	width:540px;
+	height:580px;
+	border:1px solid grey;
+	box-shadow:1px 1px 2px 2px;
+	text-align:center;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "DejaVu Sans", Verdana, sans-serif, khmer os;
+	font-size:19px;
+	color:#639;
+	margin-bottom:115px;
+	/*background:url(../image/me.jpg) no-repeat bottom left; */
+}
+
+.thanks{
+	width:560px;
+	height:300px;
+	border:1px solid gray;
+	box-shadow:1px 1px 2px 2px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif, khmer os;
+	text-align:inherit;
+	
+	font-weight:40;
+	font-size:21px;
+	text-shadow:1px 0.3px grey;
+	padding-top:10px;
+	color:#FF9900;
 }
