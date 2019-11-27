@@ -1178,4 +1178,4 @@ button.mz-button.mz-button-next:before { content: "\a003"; }
 .magic-thumbs-button-disabled {
     opacity: 0.2;
     filter: alpha(opacity = 20);
-}
+} 
