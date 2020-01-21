@@ -151,7 +151,7 @@ a>img {
 
 .right-content-child {}
 
-.right-content-child>iframe {
+.right-content-child>video {
     display: flex;
     margin: 20px auto;
     width: 300px;
@@ -330,6 +330,7 @@ h2 span {
     cursor: pointer;
 }
 
+
 /***********************************************************************
  *  Footer Section
  **********************************************************************/
@@ -392,7 +393,6 @@ h2 span {
 .registerForm {
     width: auto;
     height: auto;
-    /*background: rgb(228, 228, 228);*/
     margin: auto;
     padding: 0 20px;
 }
@@ -417,7 +417,7 @@ h2 span {
     height: 400px;
 }
 
-.registerForm input[type=email], 
+.registerForm input[type=email],
 .registerForm input[type=password],
 .registerForm input[type=text] {
     width: 100%;
@@ -505,10 +505,11 @@ a {
         margin-top: 15px !important;
     }
 
-    iframe {
+    video {
         width: 380px !important;
         height: 260px !important;
     }
+
 }
 
 @media (max-width: 424px) {
@@ -537,6 +538,7 @@ a {
     .carousel {
         margin-top: 15px !important;
     }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -553,8 +555,8 @@ a {
         margin-top: 15px !important;
     }
 
-    iframe {
-        width: 520px !important;
+    video {
+        width: 480px !important;
         height: 270px !important;
     }
 }
@@ -613,8 +615,8 @@ a {
         padding: 0.5rem 0.8rem !important;
     }
 
-    iframe {
-        width: 580px !important;
+    video {
+        width: 520px !important;
         height: 300px !important;
     }
 
@@ -690,7 +692,7 @@ a {
         padding: 0.5rem 1.2rem !important;
     }
 
-    iframe {
+    video {
         width: 700px !important;
         height: 400px !important;
     }
